@@ -1,0 +1,5 @@
+services:
+  robotics-academy:
+    volumes:
+      - ../TINF24B5-RoboticsInfrastructure/Scenes:/opt/jderobot/Scenes:ro
+      - ../TINF24B5-RoboticsInfrastructure/Launchers:/opt/jderobot/Launchers:ro
